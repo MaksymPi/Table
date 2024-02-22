@@ -1,0 +1,118 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+
+body{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    background: url('img/photo_2024-02-22_13-25-22.jpg') 0 0 /cover no-repeat;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.title {
+    margin-bottom: 50px;
+}
+
+th, td {
+    border: 2px solid #451818;
+   
+}
+
+.item {
+    width: 350px;
+    height: 350px;
+    transition: 0.5s;
+    border-radius: 20px;
+    background-color:  rgba(38, 20, 20, 0.8);;
+}
+
+.item:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.img__card {
+    height: 350px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.img-ametist {
+    box-shadow: 2px 2px 30px 2px rgba(174, 72, 246, 0.4);
+    background: url('img/ametis.jpg') 0 0 /cover no-repeat;
+}
+
+.img-jantar {
+    box-shadow: 2px 2px 30px 2px rgba(198, 133, 41, 0.4);
+    background: url('img/jantar.jpg') 0 0 /cover no-repeat;
+}
+
+.img-izumrud {
+    box-shadow: 2px 2px 30px 2px rgba(41, 198, 132, 0.4);
+    background: url('img/izumrud.jpg') 0 0 /cover no-repeat;
+}
+.img-rubin {
+    box-shadow: 2px 2px 30px 2px rgba(198, 41, 41, 0.4);
+    background: url('img/rubin.jpg') 0 0 /cover no-repeat;
+}
+.img-cytrin {
+    box-shadow: 2px 2px 30px 2px rgba(199, 185, 31, 0.4);
+    background: url('img/cutrin.jpg') 0 0 /cover no-repeat;
+}
+.img-sapfir {
+    box-shadow: 2px 2px 30px 2px rgba(36, 89, 195, 0.4);
+    background: url('img/sapfir.png') 0 0 /cover no-repeat;
+}
+.img-shugnit {
+    box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.6);
+    background: url('img/shyngit.jpg') 0 0 /cover no-repeat;
+}
+.img-geliodor {box-shadow: 2px 2px 30px 2px rgba(208, 230, 46, 0.4);
+    background: url('img/gelerod.png') 0 0 /cover no-repeat;
+}
+
+.img-granat {
+    box-shadow: 2px 2px 30px 2px rgba(198, 41, 41, 0.4);
+    background: url('img/granat.jpg') 0 0 /cover no-repeat;
+}

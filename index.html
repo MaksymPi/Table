@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Draggable Table</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Система Потенциалов</h1>
+        </div>
+        <table id="myTable">
+            <tbody>
+                <tr>
+                    <td class="item" id="cell-1-1" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 1, 1)">
+                        <div class="card">
+                            <h2 class="img-ametist img__card">Аметист</h2>
+                        </div>
+                    </td>
+                    <td class="item" id="cell-1-2" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 1, 2)">
+                        <div class="card">
+                            <h2 class="img-jantar img__card">Янтарь</h2>
+                        </div>
+                    </td>
+                    <td class="item" id="cell-1-3" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 1, 3)">
+                        <div  class="card">
+                            <h2 class="img-izumrud img__card">Изумруд</h2>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item" id="cell-2-1" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 2, 1)">
+                        <div class="card">
+                            <h2 class="img-rubin img__card">Рубин</h2>
+                        </div>
+                    </td>
+                    <td class="item" id="cell-2-2" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 2, 2)">
+                        <div class="card">
+                            <h2 class="img-cytrin img__card">Цитрин</h2>
+                        </div>
+                    </td>
+                    <td class="item" id="cell-2-3" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 2, 3)">
+                        <div class="card">
+                            <h2 class="img-sapfir img__card">Сапфир</h2>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item" id="cell-3-1" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 3, 1)">
+                        <div class="card">
+                            <h2 class="img-shugnit img__card">Шунгит</h2>
+                        </div>
+                    </td>
+                    <td class="item" id="cell-3-2" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 3, 2)">
+                        <div class="card">
+                            <h2 class="img-geliodor img__card" >Гелиодор</h2>
+                        </div>
+                    </td>
+                    <td class="item" id="cell-3-3" draggable="true" ondragstart="handleDragStart(event)"
+                        ondragover="handleDragOver(event)" ondrop="handleDropCell(event, 3, 3)">
+                        <div class="card">
+                            <h2 class="img-granat img__card">Гранат</h2>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
